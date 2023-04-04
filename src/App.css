@@ -1,0 +1,108 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, 0.807);
+  font-weight: 700;
+}
+
+body{
+  background-color: #B9E9C9
+}
+
+.navbar{
+  background-color: #38B261;
+}
+
+.navbar-brand{
+  font-size: 32px;
+  color: white;
+  text-shadow: 1px 1px 2px gray;
+}
+
+.navbar-brand:hover{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.navbar-brand:active{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.btn{
+  background-color: #38B261;
+  border: none;
+}
+
+.modal-header{
+  background-color: #38B261;
+  color: white
+}
+ 
+input{
+  cursor: text;
+}
+
+.nav-link{
+  padding: 0.25rem 0;
+  font-weight: 450;
+  color: rgb(255, 255, 255);
+  margin-left: 1rem;
+  border-bottom: 2px solid transparent;
+  display: inline-block;
+  width: fit-content;
+}
+
+.nav-link:hover{
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link.active{
+  color: black;
+  border-bottom-color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.badge.active {
+  background-color: #007bff;
+}
+
+@media (max-width: 995px) {
+  .nav-link{
+    border-bottom: none;
+  }
+}
+
+i{
+  cursor: pointer;
+}
+
+
+.logo{
+  transform: rotate(350deg);
+  font-size: 29px;
+  color: white;
+  text-shadow: 1px 1px 2px gray;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo2, .logo3{
+  font-size: 32px;
+  color: black;
+  /* text-shadow: 1px 1px 2px gray; */
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(0deg);
+}
+
+.logo2:hover {
+  transform: rotate(360deg);
+}
+
+.logo3:hover {
+  transform: rotate(360deg);
+}
+
+
